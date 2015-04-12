@@ -1,0 +1,145 @@
+body {
+	line-height: 1;
+	background-color: black;
+	margin: 0;
+}
+
+.top-navigation {
+	background-color: black;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+
+.top-navigation > .content {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 50rem;
+	width: 80%;
+}
+
+.top-navigation .content > p {
+	float: left;
+}
+
+ .content > p {
+	color: white;
+	font-size: 3.04rem;
+	margin-top: 1.7rem;
+	padding: 0 1rem;
+	font-family: 'Play', sans-serif;
+}
+
+p:hover {
+	color: lightgray;
+	font-family: 'Play', sans-serif;
+}
+
+.introduction {
+	background-image: url("images/newspaper.jpg");
+	background-position: center 5rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 75rem;
+	overflow: auto;  
+}
+
+.contact,
+.about-me,
+.portfolio {
+	background-color: black;
+	overflow: hidden;
+}
+
+.contact .content,
+.about-me .content,
+.portfolio .content {
+	margin: 0 auto;
+	padding: 5rem;
+	width: 23%;
+	text-align: center;
+}
+
+.contact .content > p,
+.about-me .content > a > p,
+.portfolio .content > p {
+	margin-top: -2.75rem;
+}
+
+.portfolio .circle {
+	background-image: url("images/karma.svg");
+	border-radius: 5rem 5rem;	
+	background-repeat: no-repeat;	
+	height: 10rem;
+	width: 10rem;
+	background-color: white;
+	background-position: center;
+	background-size: 5rem; 
+	margin: 0 auto 2rem;
+}
+
+.portfolio .circle:hover {
+	background-color: lightgray;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: white;
+	font-weight: normal;
+}
+
+h3 {
+	color:white;
+	font-size: 2.5rem;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin-top: -.00rem;
+	letter-spacing: .75rem;
+}
+
+
+a:hover {
+	color: lightgray;
+}
+
+.about-me {
+	margin-top: -2rem;
+}
+
+.about-me .circle {
+	background-image: url("images/me.png");
+	border-radius: 5rem 5rem;	
+	background-repeat: no-repeat;	
+	height: 10rem;
+	width: 10rem;
+	background-color: white;
+	background-position: center;
+	background-size: 10.5rem; 
+	margin: 0 auto 2rem;
+}
+
+.about-me .circle:hover {
+	background-color: lightgray;
+}
+
+li {
+	font-size: 8rem;
+	display: inline-block;
+	padding: 2rem;
+}
+
+i {
+	color:white;
+	display: inline-block;
+	font-size: 5rem;
+}
+
+i:hover {
+	color: lightgrey;
+}
