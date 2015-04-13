@@ -43,7 +43,6 @@ p:hover {
 
 .introduction {
 	background-image: url("images/newspaper.jpg");
-	background-position: center 5rem;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 75rem;
@@ -137,9 +136,35 @@ li {
 i {
 	color:white;
 	display: inline-block;
-	font-size: 5rem;
 }
 
 i:hover {
 	color: lightgrey;
+}
+
+@media only screen and (max-width: 650px) {
+	.content > p {
+		font-size: 2rem;
+	}
+	.content {
+		min-width: 25rem;
+	}
+	li {
+		font-size: 5rem;
+		padding: .6rem;
+	}
+	.contact .content,
+	.about-me .content,
+	.portfolio .content {
+		padding: 2.75rem;
+	}
+	.contact .content > p,
+	.about-me .content > a > p,
+	.portfolio .content > p {
+	margin-top: -1rem; 
+	}
+	.introduction {
+		background-size: 50rem;
+		height: 50rem;
+	}
 }
