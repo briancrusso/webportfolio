@@ -245,4 +245,7 @@ img {
     .contact > p {
         font-size: 2em;
     }
+    .copyright {
+        text-align: center;
+    }
 }
