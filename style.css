@@ -207,6 +207,11 @@ img {
 }
 
 @media only screen and (max-width: 650px) {
+    .top-navigation {
+        position: relative;
+        margin-bottom: -15em;
+    }
+
     .description {
         display: none;
     }
