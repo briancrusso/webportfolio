@@ -209,6 +209,11 @@ img {
 @media only screen and (max-width: 650px) {
     #title {
        top: .5em;
+       left: .5em;
+    }
+
+    img {
+        left: 5em;
     }
 
     #name {
@@ -225,7 +230,7 @@ img {
     }
     .Circle {
         position: relative;
-        left: 10em;
+        left: 5em;
     }
     .text {
         position: relative;
