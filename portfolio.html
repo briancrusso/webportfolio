@@ -1,69 +1,106 @@
 <!DOCTYPE html>
 <html>
+
 </html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Brian Russo</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brian C Russo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One|Hind|Courgette' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+     <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="app.js"></script>
 </head>
+
 <body>
-<!-- Navigation Bar -->
-	<nav class="top-navigation">
-		<div class="content">
-			<p>Brian Russo</p>
-			<p>Web Design </p>
-		</div>
-	</nav>
-<!--Background Image-->
-<section class="introduction">
-</section>
-<!-- Portfolio -->
-<section class="portfolio">
-	<div class="content">
-		<p>My Work:</p>
-		<a href="https://briancrusso.github.io/fewd_landing_page_clone/index.html">
-		<div class="circle"></div>
-		</a>
-		<h3><a href="https://briancrusso.github.io/fewd_landing_page_clone/index.html">Karma</a></h3>
-	</div>
-</section>
-<!-- About Me -->
-<section class="about-me">
-	<div class="content">
-		<p><a href="http://bunnyoga.com/brianrusso.html">About Me:</a></p>
-		<a href="http://bunnyoga.com/brianrusso.html">
-		<div class="circle"></div></a> 
-	</div>
-</section>
-<!-- Contact -->
-<section class="contact">
-	<div class="content">
-		<p>Contact:</p>
-		<ul class="icons">
-				<li>
-					<a href="mailto:russodraw@gmail.com">
-					<i class="fa fa-envelope-o"></i>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.twitter.com/russodraw">
-					<i class="fa fa-twitter"></i>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.facebook.com/brian.russo.984">
-					<i class="fa fa-facebook"></i>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.instagram.com/russodraw">
-					<i class="fa fa-instagram"></i>
-					</a>
-				</li>
-			</ul>
-	</div>
-</section>
+    <!-- Navigation Bar -->
+    <nav class="top-navigation">
+        <p id="name">Brian C Russo</p>
+        <img src="images/carrot.png">
+        <p id="title">Design for Web</p>
+    </nav>
+    <!-- Portfolio -->
+    <div class="portfolio">
+            <section class="Blue_Tab" id="About_Me" data-link="https://goo.gl/8e0KSQ">
+                <div class="Circle" id="About_Me_Circle">
+                </div>
+                <div class="text">
+                    <p>About Me:</p>
+                    <p class="description">Paragraph formating using HTML and CSS</p>
+                </div>
+            </section>
+        <div class="White">
+            <section class="White_Tab" id="Karma" data-link="https://goo.gl/h5qctS">
+                <div class="Circle" id="Karma_Circle">
+                </div>
+                <div class="text">
+                    <p>Karma:</p>
+                    <p class="description">Simple Advertising page using HTML and CSS</p>
+                </div>
+            </section>
+        </div>
+        <section class="Blue_Tab" id="Animated_Bunny" data-link="https://goo.gl/VHunQz">
+            <div class="Circle" id="Animated_Bunny_Circle">
+            </div>
+            <div class="text">
+                <p class="shorten">Animated Bunny:</p>
+                <p class="description">Display of a short animation using jQuery</p>
+            </div>
+        </section>
+        <div class="White">
+            <section class="White_Tab" id="Shopper" data-link="https://goo.gl/w6UVAK">
+                <div class="Circle" id="Shopper_Circle">
+                </div>
+                <div class="text">
+                    <p>Shopper:</p>
+                    <p class="description">A shopping list app built with Javascript</p>
+                </div>
+            </section>
+        </div>
+        <section class="Blue_Tab" id="Recipe_Picker" data-link="http://goo.gl/nWb7lB">
+            <div class="Circle" id="Recipe_Picker_Circle">
+            </div>
+            <div class="text">
+                <p class="shorten">Recipe Picker:</p>
+                <p class="description">A random recipe app developed with an API</p>
+            </div>
+        </section>
+        <div class="White">
+            <section class="White_Tab" id="Quiz" data-link="https://goo.gl/BFGI9J">
+                <div class="Circle" id="Quiz_Circle">
+                </div>
+                <div class="text">
+                    <p class="shorten">Sandwich Quiz:</p>
+                    <p class="description">Find out what kind of sandwich you are in this quiz</p>
+                </div>
+            </section>
+        </div>
+        <!-- Contact -->
+        <section class="contact">
+            <p>Thank you for visiting!</p>
+            <div class="icons">
+                <div>
+                    <a href="mailto:russodraw@gmail.com">
+                        <i class="fa fa-envelope-o"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="http://www.twitter.com/russodraw">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+                <a href="http://www.facebook.com/brian.russo.984">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <div>
+                    <a href="http://www.instagram.com/russodraw">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </div>
+                <p class="copyright">copyright 2015</p>
+            </div>
+        </section>
+    </div>
 </body>
