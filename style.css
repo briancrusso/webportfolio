@@ -212,8 +212,12 @@ img {
        left: .5em;
     }
 
+    .first_img {
+        width: 20em;
+    }
+
     img {
-        left: 5em;
+        float: right;
     }
 
     #name {
