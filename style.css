@@ -214,11 +214,12 @@ img {
     }
 
     .first_img {
-        width: 12em;
+        width: 10em;
     }
 
     img {
         float: right;
+        margin-right: 7em;
     }
 
     #name {
