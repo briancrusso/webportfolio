@@ -25,6 +25,7 @@ img {
     margin-left: 2%;
 }
 
+.first_img,
 #name,
 #title {
     display: inline;
@@ -213,7 +214,7 @@ img {
     }
 
     .first_img {
-        width: 15em;
+        width: 16em;
     }
 
     img {
