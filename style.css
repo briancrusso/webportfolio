@@ -231,6 +231,11 @@ img {
         margin-bottom: -15em;
     }
 
+    #About_Me_Text {
+        position: relative;
+        top: -3em;
+    }
+
     .description {
         display: none;
     }
