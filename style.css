@@ -115,6 +115,11 @@ img {
     background-size: 100%;
 }
 
+#Cheese_Circle {
+    background-image: url("images/cheese.png");
+    background-size: 100%;
+}
+
 .White_Tab:hover,
 .Blue_Tab:hover {
     margin-left: 2em;
@@ -144,6 +149,7 @@ img {
 .contact {
     margin-top: 5em;
     margin-bottom: 10em;
+    background-color: #37D1CE;
 }
 
 .contact > p {
@@ -163,7 +169,7 @@ img {
 
 .icons a,
 .icons a:visited {
-    color: white;
+    color: #37D1CE;
     font-size: 2.5em;
     text-decoration: none;
     display: inline;
