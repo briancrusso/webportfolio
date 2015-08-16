@@ -120,6 +120,11 @@ img {
     background-size: 100%;
 }
 
+#Space_Circle {
+    background-image: url("images/space.png");
+    background-size: 100%;
+}
+
 .White_Tab:hover,
 .Blue_Tab:hover {
     margin-left: 2em;
